@@ -16,6 +16,6 @@ const cpu = {
 }
 
 let ec = cpu.enc("bungga")
-
+let dc =cpu.dec(ec)
 
 console.log(ec)
