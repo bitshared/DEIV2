@@ -15,7 +15,7 @@ const cpu = {
     }
 }
 
-let ec = cpu.enc("bungga")
+let ec = cpu.enc("b")
 let dc =cpu.dec(ec)
 
 console.log(ec,dc)
