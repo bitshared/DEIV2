@@ -15,4 +15,7 @@ const cpu = {
     }
 }
 
-let ec = cpu.
+let ec = cpu.enc("bungga")
+
+
+console.log(ec)
