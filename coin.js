@@ -1,4 +1,4 @@
-const vcpu = {
+const cpu = {
     ch: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
     enc: function (mz) {
         let ec = (mz + "=").replace(/-/g, '+').replace(/_/g, '/').split('').
@@ -14,3 +14,5 @@ const vcpu = {
         return dc
     }
 }
+
+let ec = cpu.
